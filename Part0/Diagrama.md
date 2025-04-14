@@ -1,3 +1,10 @@
+```mermaid
+sequenceDiagram
+participant user as Usuario
+participant browser as Navegador
+participant server as Servidor
+
+...
 sequenceDiagram
     participant user as Usuario
     participant browser as Navegador
@@ -38,4 +45,5 @@ sequenceDiagram
     server-->>browser: Lista de notas (incluyendo la nueva)
     deactivate server
 
-    Note right of browser: El navegador ejecuta la función que muestra las notas en pantalla
+    Note right of browser: El navegador ejecuta la función que muestra las notas en pantalla
+...
