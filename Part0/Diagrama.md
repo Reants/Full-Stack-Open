@@ -1,10 +1,8 @@
 ```mermaid
 sequenceDiagram
-participant user as Usuario
-participant browser as Navegador
-participant server as Servidor
-
-...
+    participant user as Usuario
+    participant browser as Navegador
+    participant server as Servidor
 
     Note right of user: Escribe una nota en el campo de texto
 
@@ -41,5 +39,5 @@ participant server as Servidor
     server-->>browser: Lista de notas (incluyendo la nueva)
     deactivate server
 
-    Note right of browser: El navegador ejecuta la función que muestra las notas en pantalla
-...
+    Note right of browser: El navegador ejecuta la función que muestra las notas en pantalla
+
