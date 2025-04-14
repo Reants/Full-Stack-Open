@@ -5,10 +5,6 @@ participant browser as Navegador
 participant server as Servidor
 
 ...
-sequenceDiagram
-    participant user as Usuario
-    participant browser as Navegador
-    participant server as Servidor
 
     Note right of user: Escribe una nota en el campo de texto
 
